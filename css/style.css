@@ -17,3 +17,55 @@
 /* Colores */
 
 /* ******************************** */
+
+body{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #7a7a7a;
+}
+.container {
+  width: 658px;
+  height: 905px;
+  border-radius: 18px;
+  background-color: #ffffff;
+}
+
+header {
+  margin-bottom: 20px;
+  height: 340px;
+  background: linear-gradient(to right, #FAF4E5, #E289FF); 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 18px 18px 0 0; 
+}
+
+.boton_learn {
+  width: 187px;
+  height: 48px;
+  background-color: #F96D6F;
+  color: #ffffff;
+  border: none;
+  border-radius: 18px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.learn-more-btn:hover {
+  background-color: #e85c5f;
+}
+
+
+
+.boton_content{
+  width: 310px;
+  height: 55px;
+  background-color: #39466C;
+  color: #ffffff;
+  border-radius: 18px;
+  font-size: 16px;
+  cursor: pointer;
+}
